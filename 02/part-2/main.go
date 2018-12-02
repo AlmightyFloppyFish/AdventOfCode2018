@@ -38,8 +38,5 @@ func compareTwo(str string, comparison string) bool {
 		faults++
 	}
 
-	if faults == 1 {
-		return true
-	}
-	return false
+	return faults == 1
 }
